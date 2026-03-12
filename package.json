@@ -1,0 +1,28 @@
+{
+  "name": "opencode-anthropic-context-1m",
+  "version": "1.0.0",
+  "description": "OpenCode plugin: enables 1M context window for Anthropic Claude models",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "author": "razor54",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razor54/opencode-anthropic-context-1m.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.2.15",
+    "typescript": "^5.9.0"
+  }
+}
